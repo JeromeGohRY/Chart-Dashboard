@@ -10,7 +10,7 @@ This project contains two main parts: a Django backend providing API endpoints a
 ### Backend (Django)
 
 1. **Navigate to the Django backend folder**:
-    Place the backend Django files in your chosen directory and navigate to it.
+    Navigate to the chart_api directory containing the manage.py file.
 
 2. **Install required Python packages**:
     Make sure you have Python 3.x and `pip` installed, then run:
@@ -27,7 +27,7 @@ This project contains two main parts: a Django backend providing API endpoints a
 ### Frontend (Next.js)
 
 1. **Navigate to the Next.js frontend folder**:
-    Place the frontend Next.js files in your chosen directory and navigate to it.
+    Naviagate to the my-app directory.
 
 
 2. **Install required npm packages**:
