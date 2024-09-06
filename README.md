@@ -5,6 +5,7 @@ This project contains two main parts: a Django backend providing API endpoints a
 ## Setup Instructions
 
 1. Clone the Repository
+   git clone https://github.com/JeromeGohRY/Chart-Dashboard.git
 
 ### Backend (Django)
 
