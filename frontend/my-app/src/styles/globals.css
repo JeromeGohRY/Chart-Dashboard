@@ -1,0 +1,84 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+}
+
+.chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+}
+
+.pie-chart-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+.chart-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  background-color: #f8d7da; 
+  color: #721c24; 
+  border: 1px solid #f5c6cb; 
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+:root {
+  --chart-line-color: rgba(75, 192, 192, 1);
+  --chart-bar-color-1: rgba(255, 99, 132, 0.2);
+  --chart-bar-color-2: rgba(54, 162, 235, 0.2);
+  --chart-bar-color-3: rgba(75, 192, 192, 0.2);
+  --chart-pie-color-1: rgba(255, 99, 132, 0.2);
+  --chart-pie-color-2: rgba(54, 162, 235, 0.2);
+  --chart-pie-color-3: rgba(255, 206, 86, 0.2);
+}
+
+@media (max-width: 768px) {
+  .chart-wrapper {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chart-wrapper {
+    height: 250px;
+  }
+}
+
